@@ -1,0 +1,14 @@
+{
+    "name": "strmgk",
+    "version": "3.2.0",
+    "description": "Removes all spaces from a string",
+    "license": "MIT",
+    "repository": "aedelkhanday/strmgk",
+    "main": "index.js",
+    "keywords": [
+        "string manipulations",
+        "npm",
+        "package",
+        "aedelkhanday"
+    ]
+}
