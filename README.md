@@ -1,4 +1,4 @@
-<h1 align="center">STRMGK - Magic library for all your string operations</h1>
+<h1>STRMGK</h1>
 
 <hr />
 
@@ -10,26 +10,24 @@
 </p>
 
 <h3>Example Methods</h3>
-
-<ul>
-  <li>trimSpaces(string): Removes all the spaces from a string</li>
-  <li>
-    isSubstringPresent(string, substring): Returns true if the input string
-    contains a given substring
-  </li>
-  <li>toggleCase(string): Toggles the case in a given string.</li>
-</ul>
-
-<a href="#"> Another Link to your awesome Demo </a>
+<div style="color: grey; padding:10px">
+  <ul>
+    <li>trimSpaces(string): Removes all the spaces from a string</li>
+    <li>
+      isSubstringPresent(string, substring): Returns true if the input string
+      contains a given substring
+    </li>
+    <li>toggleCase(string): Toggles the case in a given string.</li>
+  </ul>
+</div>
 
 <h3>Install</h3>
-<p>npm install strmgk</p>
+<div style="color:grey; padding:10px"><p>npm install strmgk</p></div>
 
 <h3>Usage</h3>
 
 <p>
-  const strmgk = require("strmgk");
-  let toggleStringCase =
+  const strmgk = require("strmgk"); let toggleStringCase =
   strmgk.toggleCase("TestString")
 </p>
 
