@@ -27,13 +27,16 @@
 <h3>Usage</h3>
 
 <p>
-  const strmgk = require("strmgk"); let toggleStringCase =
-  strmgk.toggleCase("TestString")
+  <h5>const strmgk = require("strmgk"); </h5>
+  <h5>let toggleStringCase = strmgk.toggleCase("TestString")</h5>
 </p>
 
 <h3>Contributing</h3>
 Keep it simple. Keep it minimal. Don't put every single feature just because you
 can.
+<h5>
+  <a href="https://github.com/aedelkhanday/strmgk/tree/master"> Take me to github!</a>
+</h5>
 
 <h3>Authors or Acknowledgments</h3>
 <ul>
