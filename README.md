@@ -1,6 +1,7 @@
 <h1>STRMGK - <em><b>Still under development! </b></em></h1>
 
 <hr />
+<img src = "https://img.shields.io/badge/strmgk-String%20magic-brightgreen" alt="badge"/>
 
 <p>
   STRMGK is your full fledged library for all string operations at one place. It
