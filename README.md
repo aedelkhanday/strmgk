@@ -18,6 +18,7 @@
       contains a given substring
     </li>
     <li>toggleCase(string): Toggles the case in a given string.</li>
+    <li>reverseString(string): Reverses a given string </li>
   </ul>
 </div>
 

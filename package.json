@@ -12,7 +12,11 @@
         "aedelkhanday",
         "sort",
         "reverse",
-        "substring"
+        "substring",
+        "trimSpaces",
+        "string manipulations",
+        "toggleCase",
+        "reverseString"
     ],
     "dependencies": {
         "boilerplate-readme-template": "^1.0.1"

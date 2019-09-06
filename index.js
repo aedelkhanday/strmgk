@@ -12,20 +12,20 @@ module.exports = {
     return string.replace(/\s/g, "");
   },
 
- /**
-  * 
-  * @param {*} string Input String.
-  * @param {*} subString Substring to be searched for.
-  */
+  /**
+   *
+   * @param {*} string Input String.
+   * @param {*} subString Substring to be searched for.
+   */
   isSubstringPresent: function(string, subString) {
     if (string.indexOf(subString) > -1) return true;
     else return false;
   },
 
   /**
-   * This method toggles case of a string. All lower case letters areconverted to 
+   * This method toggles case of a string. All lower case letters are converted to
    * upper case and vice versa
-   * example: For tEsTStriNG as input, TeStsTRIng will be returned as output 
+   * example: For tEsTStriNG as input, TeStsTRIng will be returned as output
    * @param {*} string Input String.
    */
   toggleCase: function(string) {
@@ -39,6 +39,23 @@ module.exports = {
       else return char;
     });
     console.log(retVal);
-    return retVal.join().toString().replace(/,/g, "");
+    return retVal
+      .join()
+      .toString()
+      .replace(/,/g, "");
+  },
+
+  /**
+   * This method reverses a given string.
+   * Example: For input string "hello", the method returns "olleh". 
+   * @param {*} string The input string to be reversed.
+   * @returns {*} The reversed string.
+   */
+  reverseString: function(string) {
+    return string
+      .split("")
+      .reverse()
+      .join()
+      .replace(/,/g, "");
   }
 };
