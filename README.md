@@ -14,14 +14,14 @@
 <h3>Example Methods</h3>
 <div style="color: grey; padding:10px">
   <ul>
-    <li>trimSpaces(string): Removes all the spaces from a string</li>
+    <li><b>trimSpaces(string)</b>: Removes all the spaces from a string</li>
     <li>
-      isSubstringPresent(string, substring): Returns true if the input string
+      <b>isSubstringPresent(string, substring)</b>: Returns true if the input string
       contains a given substring
     </li>
-    <li>toggleCase(string): Toggles the case in a given string.</li>
-    <li>reverseString(string): Reverses a given string </li>
-    <li>removeSpecialChars4mString(string): Removes all the special characters from an input string and returns a string with only [a-z][A-Z] characters.</li>
+    <li><b>toggleCase(string)</b>: Toggles the case in a given string.</li>
+    <li><b>reverseString(string)</b>: Reverses a given string </li>
+    <li><b>removeSpecialChars4mString(string)</b>: Removes all the special characters from an input string and returns a string with only [a-z][A-Z] characters.</li>
   </ul>
 </div>
 
