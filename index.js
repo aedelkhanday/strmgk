@@ -47,7 +47,7 @@ module.exports = {
 
   /**
    * This method reverses a given string.
-   * Example: For input string "hello", the method returns "olleh". 
+   * Example: For input string "hello", the method returns "olleh".
    * @param {*} string The input string to be reversed.
    * @returns {*} The reversed string.
    */
@@ -57,5 +57,19 @@ module.exports = {
       .reverse()
       .join()
       .replace(/,/g, "");
+  },
+  /**
+   * This method takes a string as an argument(possibly with special characters) and returns
+   * a valid english string with no spoecial characters or numbers
+   * @param {*} string String with special characters
+   * @returns{*} A string with only english alphabets [a-z][A-Z]
+   */
+  removeSpecialChars4mString: function(string) {
+    var retval = string.replace(/[@!#\-$%^\\&*()_+~.,\/`=<>";:0-9]/gi, function(
+      x
+    ) {
+      return x.replace(x, "");
+    });
+    return retval;
   }
 };
