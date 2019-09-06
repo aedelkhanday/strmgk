@@ -21,6 +21,7 @@
     </li>
     <li>toggleCase(string): Toggles the case in a given string.</li>
     <li>reverseString(string): Reverses a given string </li>
+    <li>removeSpecialChars4mString(string): Removes all the special characters from an input string and returns a string with only [a-z][A-Z] characters.</li>
   </ul>
 </div>
 
