@@ -18,6 +18,8 @@ module.exports = {
    * @param {*} subString Substring to be searched for.
    */
   isSubstringPresent: function(string, subString) {
+    if (typeof string !== "string" || typeof subString !== "string")
+      throw new TypeError("Please provide a string!");
     if (string.indexOf(subString) > -1) return true;
     else return false;
   },
@@ -29,6 +31,8 @@ module.exports = {
    * @param {*} string Input String.
    */
   toggleCase: function(string) {
+    if (typeof string !== "string")
+      throw new TypeError("Please provide a string!");
     let retVal = [];
     let stringArray = string.split("");
     retVal = stringArray.map(char => {
@@ -38,7 +42,6 @@ module.exports = {
         return char.toLowerCase();
       else return char;
     });
-    console.log(retVal);
     return retVal
       .join()
       .toString()
@@ -52,11 +55,12 @@ module.exports = {
    * @returns {*} The reversed string.
    */
   reverseString: function(string) {
+    if (typeof string !== "string")
+      throw new TypeError("Please provide a string!");
     return string
       .split("")
       .reverse()
-      .join()
-      .replace(/,/g, "");
+      .join("");
   },
   /**
    * This method takes a string as an argument(possibly with special characters) and returns
@@ -65,6 +69,8 @@ module.exports = {
    * @returns{*} A string with only english alphabets [a-z][A-Z]
    */
   removeSpecialChars4mString: function(string) {
+    if (typeof string !== "string")
+      throw new TypeError("Please provide a string!");
     var retval = string.replace(/[@!#\-$%^\\&*()_+~.,\/`=<>";:0-9]/gi, function(
       x
     ) {
@@ -80,13 +86,25 @@ module.exports = {
    * @param {*} string
    */
   capitalize: function(string) {
+    if (typeof string !== "string")
+      throw new TypeError("Please provide a string!");
     return string
       .split(" ")
       .filter(word => word != "")
       .map(word => {
         return word[0].toUpperCase() + word.slice(1);
       })
-      .join()
-      .replace(/,/g, " ");
+      .join(" ");
+  },
+  /**
+   * This method compares two strings regardless of the case. It equates "hello" and "HELLO"
+   * as equal.
+   * @param {*} string1
+   * @param {*} string2
+   */
+  equalIgnoreCase(string1, string2) {
+    if (typeof string1 !== "string" || typeof string2 !== "string")
+      throw new TypeError("Please provide a string!");
+    return string1.toLowerCase() == string2.toLowerCase();
   }
 };
