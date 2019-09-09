@@ -1,4 +1,4 @@
-<h1>STRMGK - <em><b><span style="color: red;">Still under development! </b></em></h1>
+<h1><b>STRMGK </b></h1>
 
 <hr />
 <img src = "https://img.shields.io/badge/strmgk-String%20magic-brightgreen" alt="genericBadge"/>
