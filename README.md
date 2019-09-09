@@ -45,7 +45,7 @@ can.
 
 <h3>Authors or Acknowledgments</h3>
 <ul>
-  <li>Adil Khanday - <img src = "https://www.matrixgroup.net/snackoclock/wp-content/uploads/2012/07/twitter-bird-light-bgs.png"/> - <a href= "https://twitter.com/aedel_kh"> Follow on twitter @aedel_kh</a></li>
+  <li>Adil Khanday - <img src = "https://www.matrixgroup.net/snackoclock/wp-content/uploads/2012/07/twitter-bird-light-bgs.png" width="45" height = "45"/> - <a href= "https://twitter.com/aedel_kh"> Follow on twitter @aedel_kh</a></li>
 </ul>
 
 <h3>License</h3>
