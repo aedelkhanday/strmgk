@@ -1,6 +1,6 @@
 {
     "name": "strmgk",
-    "version": "4.7.9",
+    "version": "4.7.10",
     "description": "Removes all spaces from a string",
     "license": "MIT",
     "repository": "aedelkhanday/strmgk",
@@ -26,5 +26,5 @@
     },
     "scripts": {
         "test": "jest"
-      }
+    }
 }
