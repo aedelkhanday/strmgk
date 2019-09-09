@@ -1,4 +1,4 @@
-<h1>STRMGK - <em><b>Still under development! </b></em></h1>
+<h1>STRMGK - <em><b><span style="color: red;">Still under development! </span></b></em></h1>
 
 <hr />
 <img src = "https://img.shields.io/badge/strmgk-String%20magic-brightgreen" alt="genericBadge"/>
@@ -11,17 +11,18 @@
   simple, subtle and easy to use.
 </p>
 
-<h3>Example Methods</h3>
+<h3> Methods</h3>
 <div style="color: grey; padding:10px">
   <ul>
-    <li><b>trimSpaces(string)</b>: Removes all the spaces from a string</li>
+    <li><span style="color: blue;"><b>trimSpaces(string)</b>: Removes all the spaces from a string</span></li>
     <li>
-      <b>isSubstringPresent(string, substring)</b>: Returns true if the input string
+      <span style="color: blue;"><b>isSubstringPresent(string, substring)</b>: Returns true if the input string
       contains a given substring
-    </li>
-    <li><b>toggleCase(string)</b>: Toggles the case in a given string.</li>
-    <li><b>reverseString(string)</b>: Reverses a given string </li>
-    <li><b>removeSpecialChars4mString(string)</b>: Removes all the special characters from an input string and returns a string with only [a-z][A-Z] characters.</li>
+   </span> </li>
+    <li><span style="color: blue;"><b>toggleCase(string)</b>: Toggles the case in a given string.</span></li>
+    <li><span style="color: blue;"><b>reverseString(string)</b>: Reverses a given string </span></li>
+    <li><span style="color: blue;"><b>removeSpecialChars4mString(string)</b>: Removes all the special characters from an input string and returns a string with only [a-z][A-Z] characters.</span></li>
+    <li><span style="color: blue;"><b>capitalize(string)</b>: This method capitalizes a string. i.e; It changes the first alphabet of every word to upper case</span></li>
   </ul>
 </div>
 
@@ -44,7 +45,7 @@ can.
 
 <h3>Authors or Acknowledgments</h3>
 <ul>
-  <li>Adil Khanday</li>
+  <li>Adil Khanday - <img src = "currentSrc: https://www.matrixgroup.net/snackoclock/wp-content/uploads/2012/07/twitter-bird-light-bgs.png"/> - <a href= "https://twitter.com/aedel_kh"> Follow on twitter @aedel_kh</a></li>
 </ul>
 
 <h3>License</h3>

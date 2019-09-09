@@ -71,5 +71,22 @@ module.exports = {
       return x.replace(x, "");
     });
     return retval;
+  },
+
+  /**
+   * This method capitalizes a string. Means in a multi word sentence it makes the
+   * first letter of the word in upper case. For input "hello world", it returns
+   * "Hello World" as the output
+   * @param {*} string
+   */
+  capitalize: function(string) {
+    return string
+      .split(" ")
+      .filter(word => word != "")
+      .map(word => {
+        return word[0].toUpperCase() + word.slice(1);
+      })
+      .join()
+      .replace(/,/g, " ");
   }
 };
