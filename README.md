@@ -48,11 +48,13 @@ Keep it simple. Keep it minimal. Don't put every single feature just because you
 can.
 <h5>
   <a href="https://github.com/aedelkhanday/strmgk/tree/master"> Take me to github!</a>
+  <a href="https://github.com/gintojosephginto007/strmgk"> Take me to github!</a>
 </h5>
 
 <h3>Authors or Acknowledgments</h3>
 <ul>
-  <li>Adil Khanday - <img src = "https://www.matrixgroup.net/snackoclock/wp-content/uploads/2012/07/twitter-bird-light-bgs.png" width="20" height = "20"/> - <a href= "https://twitter.com/aedel_kh"> Follow on twitter @aedel_kh</a></li>
+  <li>Adil Khanday - <img src = "https://www.matrixgroup.net/snackoclock/wp-content/uploads/2012/07/twitter-bird-light-bgs.png" width="20" height = "20"/> - <a href= "https://twitter.com/aedel_kh"> Follow on twitter @aedel_kh</a></li>\
+  <li>Ginto Joseph - <img src = "https://www.matrixgroup.net/snackoclock/wp-content/uploads/2012/07/twitter-bird-light-bgs.png" width="20" height = "20"/> - <a href= "https://twitter.com/ginto007"> Follow this kickass programmer on twitter @ginto</a></li>
 </ul>
 <h3>License</h3>
 
