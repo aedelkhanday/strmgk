@@ -106,5 +106,16 @@ module.exports = {
     if (typeof string1 !== "string" || typeof string2 !== "string")
       throw new TypeError("Please provide a string!");
     return string1.toLowerCase() == string2.toLowerCase();
+  },
+
+  /**
+   * This method convert camel case into regular case string
+   * @param {Input string} inputString
+   */
+  camelcaseStringToRegularcaseString: function(inputString) {
+    inputString = inputString.replace(/([A-Z])/g, " $1");
+    let resultString =
+      inputString.charAt(0).toUpperCase() + inputString.slice(1);
+    return resultString;
   }
 };
