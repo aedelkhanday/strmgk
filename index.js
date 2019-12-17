@@ -112,7 +112,7 @@ module.exports = {
    * This method convert camel case into regular case string
    * @param {Input string} inputString
    */
-  camelcaseStringToRegularcaseString: function(inputString) {
+  camelCaseStringToRegularCaseString: function(inputString) {
     inputString = inputString.replace(/([A-Z])/g, " $1");
     let resultString =
       inputString.charAt(0).toUpperCase() + inputString.slice(1);
