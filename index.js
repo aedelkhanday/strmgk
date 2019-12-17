@@ -108,7 +108,14 @@ module.exports = {
     return string1.toLowerCase() == string2.toLowerCase();
   },
 
-  test: function() {
-    return null;
+  /**
+   * This method convert camel case into regular case string
+   * @param {Input string} inputString
+   */
+  camelcaseStringToRegularcaseString: function(inputString) {
+    inputString = inputString.replace(/([A-Z])/g, " $1");
+    let resultString =
+      inputString.charAt(0).toUpperCase() + inputString.slice(1);
+    return resultString;
   }
 };

@@ -24,6 +24,7 @@
     <li><b>removeSpecialChars4mString(string)</b>: Removes all the special characters from an input string and returns a string with only [a-z][A-Z] characters.</li>
     <li><b>capitalize(string)</b>: This method capitalizes a string. i.e; It changes the first alphabet of every word to upper case</li>
     <li><b>equalIgnoreCase(string1, string2)</b>:  This method compares two strings regardless of the case. It equates "hello" and "HELLO" as equal </li>
+    <li><b>camelcaseStringToRegularcaseString(string)</b>:  This method convert camel case string into regular case string. For example "hiHello" convert into "Hi Hellow" </li>
   </ul>
 </div>
 
