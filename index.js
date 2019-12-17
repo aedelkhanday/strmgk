@@ -106,5 +106,9 @@ module.exports = {
     if (typeof string1 !== "string" || typeof string2 !== "string")
       throw new TypeError("Please provide a string!");
     return string1.toLowerCase() == string2.toLowerCase();
+  },
+
+  test: function() {
+    return null;
   }
 };
