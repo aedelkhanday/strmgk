@@ -37,7 +37,7 @@ test("Equal ignore Case function", () => {
 });
 
 test("Camel case to regular case convert function", () => {
-  expect(index.camelcaseStringToRegularcaseString("hiHellow")).toBe(
+  expect(index.camelCaseStringToRegularCaseString("hiHellow")).toBe(
     "Hi Hellow"
   );
 });
