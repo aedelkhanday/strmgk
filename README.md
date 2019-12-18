@@ -24,7 +24,8 @@
     <li><b>removeSpecialChars4mString(string)</b>: Removes all the special characters from an input string and returns a string with only [a-z][A-Z] characters.</li>
     <li><b>capitalize(string)</b>: This method capitalizes a string. i.e; It changes the first alphabet of every word to upper case</li>
     <li><b>equalIgnoreCase(string1, string2)</b>:  This method compares two strings regardless of the case. It equates "hello" and "HELLO" as equal </li>
-    <li><b>camelcaseStringToRegularcaseString(string)</b>:  This method convert camel case string into regular case string. For example "hiHello" convert into "Hi Hellow" </li>
+    <li><b>camelCaseStringToRegularCaseString(string)</b>:  This method convert camel case string into regular case string. For example "helloWorld" convert into "Hello World" </li>
+    <li><b>getStringWithoutSpecialCharacters(string)</b>:  This method return string without any special characters. For example "Ginto &Joseph* 007" convert into "GintoJoseph007" </li>
   </ul>
 </div>
 
@@ -54,7 +55,7 @@ can.
 <h3>Authors or Acknowledgments</h3>
 <ul>
   <li>Adil Khanday - <img src = "https://www.matrixgroup.net/snackoclock/wp-content/uploads/2012/07/twitter-bird-light-bgs.png" width="20" height = "20"/> - <a href= "https://twitter.com/aedel_kh"> Follow on twitter @aedel_kh</a></li>\
-  <li>Ginto Joseph - <img src = "https://www.matrixgroup.net/snackoclock/wp-content/uploads/2012/07/twitter-bird-light-bgs.png" width="20" height = "20"/> - <a href= "https://twitter.com/ginto007"> Follow this kickass programmer on twitter @ginto</a></li>
+  <li>Ginto Joseph - <img src = "https://www.matrixgroup.net/snackoclock/wp-content/uploads/2012/07/twitter-bird-light-bgs.png" width="20" height = "20"/> - <a href= "https://twitter.com/ginto007"> Follow on twitter @ginto</a></li>
 </ul>
 <h3>License</h3>
 
