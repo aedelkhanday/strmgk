@@ -80,6 +80,19 @@ module.exports = {
   },
 
   /**
+   * This method takes a string as an argument(possibly with special characters) and returns
+   * a valid english string with no spoecial characters
+   * @param {*} string String with special characters
+   * @returns{*} A string with only english alphabets [a-z][A-Z][0-9]
+   */
+  getStringWithoutSpecialCharacters: function(string) {
+    if (typeof string !== "string")
+      throw new TypeError("Please provide a string!");
+    var retval = string.replace(/[^a-zA-Z0-9]/g, "");
+    return retval;
+  },
+
+  /**
    * This method capitalizes a string. Means in a multi word sentence it makes the
    * first letter of the word in upper case. For input "hello world", it returns
    * "Hello World" as the output

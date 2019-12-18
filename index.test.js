@@ -22,6 +22,12 @@ test("Remove special Characters function", () => {
   );
 });
 
+test("Remove all special Characters from the string function ", () => {
+  expect(index.getStringWithoutSpecialCharacters("Ginto &%Joseph123")).toBe(
+    "GintoJoseph123"
+  );
+});
+
 test("Test capitalize function", () => {
   expect(index.capitalize("hello world")).toBe("Hello World");
 });
