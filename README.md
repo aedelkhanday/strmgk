@@ -41,7 +41,7 @@
 
 <p>
 <h3> Testing </h3>
-For testing, we have used <b>Jest</b> Javascript testing framework. To run the unit tests, use the below command in the root folder<br/> <i><b>sudo npm run test</b></i>
+For testing, we have used <b>Jest</b> Javascript testing framework. To run the unit tests, use the below command in the root folder<br/> <i><b>npm run test</b></i>
 </p>
 
 <h3>Contributing</h3>
